@@ -6,8 +6,7 @@ Cell state annotations within this atlas were annotated based on reference trans
 
 We provide functions to rapidly and accurately map query scRNA-seq profiles of either normal or leukemic hematopoietic cells onto our atlas of B cell development. Mapping, QC Filtering, CellType prediction, Pseudotime prediction, and Composition analysis can be performed from raw count matrices within minutes (~20min total for ~10,000 cells on a personal laptop). Note that query cells are first mapped onto BoneMarrowMap to identify cells along the B-lymphoid lineage and subsequently mapped onto this focused B cell development atlas. 
 
-
-
+This code relies on the BoneMarrowMap R package (https://github.com/andygxzeng/BoneMarrowMap), please see the corresponding BoneMarrowMap github page for installation instructions (< 5 min) and a tutorial for running the tool. This was tested for compatibility on Linux, Mac, or Windows OS. 
 
 
 
